@@ -60,12 +60,22 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-  color: #c25100;
+  color: #ff9950;
   background: none;
-  border-color: #c25100;
+  border: none;
+  outline: none;
 }
 
 .btn-secondary:hover {
   color: #ffffff;
-  background-color: #c25100;
+  background-color: #ff9950;
+  border: none;
+  outline: none;
+}
+
+small > a {
+  text-decoration: none;
+}
+small > a:hover {
+  color: #ffffff;
 }
