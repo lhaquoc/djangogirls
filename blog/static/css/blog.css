@@ -79,3 +79,7 @@ small > a {
 small > a:hover {
   color: #ffffff;
 }
+
+.comment {
+  margin: 20px 0px 20px 20px;
+}
