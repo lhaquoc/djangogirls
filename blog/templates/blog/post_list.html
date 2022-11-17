@@ -4,6 +4,9 @@
     <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
       <i class="fa-solid fa-pen-to-square"></i>
     </a>
+    <a class="btn btn-secondary" href="{% url 'post_remove' pk=post.pk %}"
+      ><i class="fa-solid fa-trash"></i
+    ></a>
   </aside>
   <time class="date"> {{ post.published_date }} </time>
   <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>

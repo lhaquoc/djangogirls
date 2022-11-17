@@ -5,10 +5,19 @@
     <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
       <i class="fa-solid fa-pen-to-square"></i>
     </a>
+    <a class="btn btn-secondary" href="{% url 'post_remove' pk=post.pk %}"
+      ><i class="fa-solid fa-trash"></i
+    ></a>
     {% endif %}
   </aside>
   {% if post.published_date %}
   <time class="date"> {{ post.published_date }} </time>
+  {% else %}
+  <aside class="actions">
+    <a class="btn btn-secondary" href="{% url 'post_publish' pk=post.pk %}"
+      ><i class="fa-solid fa-upload"></i
+    ></a>
+  </aside>
   {% endif %}
   <h2>{{ post.title }}</h2>
   <p>{{ post.text|linebreaksbr }}</p>

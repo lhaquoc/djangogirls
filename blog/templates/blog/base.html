@@ -33,6 +33,9 @@
         <a href="{% url 'post_new' %}" class="top-menu"
           ><i class="fa-solid fa-plus"></i></span
         ></a>
+        <a href="{% url 'post_draft_list' %}" class="top-menu">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </a>
         <p class="top-menu">
           Hello {{ user.username }}
           <small>(<a href="{% url 'logout' %}">Log out</a>)</small>
