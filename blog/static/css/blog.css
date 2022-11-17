@@ -83,3 +83,6 @@ small > a:hover {
 .comment {
   margin: 20px 0px 20px 20px;
 }
+a.comment-num {
+  text-decoration: none;
+}
