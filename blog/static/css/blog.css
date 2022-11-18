@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #ff9950;
+  background-color: #da6a00;
   margin-top: 0;
   margin-bottom: 40px;
   padding: 20px 20px 20px 40px;
@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Lobster", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .date {
@@ -60,17 +60,22 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-  color: #ff9950;
+  color: #68904d;
   background: none;
   border: none;
   outline: none;
+  font-size: 35px;
 }
 
 .btn-secondary:hover {
   color: #ffffff;
-  background-color: #ff9950;
+  background-color: #68904d;
   border: none;
   outline: none;
+}
+
+.btn-comment {
+  font-size: 20px;
 }
 
 small > a {
